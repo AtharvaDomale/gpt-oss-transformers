@@ -24,3 +24,6 @@ Create a fresh environment and install:
 ```bash
 pip install -U transformers accelerate torch triton kernels
 pip install git+https://github.com/triton-lang/triton.git@main#subdirectory=python/triton_kernels
+
+#⚠️ Note: Python 3.13 is not yet supported. Please use Python 3.12.
+
